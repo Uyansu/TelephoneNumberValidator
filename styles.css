@@ -1,0 +1,86 @@
+:root {
+    --black: #161A30;
+    --cream: #F0ECE5;
+    --strongRed: #FF004D;
+    --neonGreen: #16FF00;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Garamond, sans-serif;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--cream);
+}
+
+#container-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#input-area {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 60px;
+    font-size: 20px;
+    gap: 10px;
+}
+
+input {
+    font-size: 25px;
+}
+
+#btn-area {
+    padding: 30px 0px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-size: 20px;
+    padding: 3px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+button:hover {
+background: -moz-radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+color: var(--cream);
+transition: 0.3s;
+}
+
+.result-p {
+    font-size: 25px;
+}
+/* ---------- colors for is number valid or invalid -------- */
+
+.right {
+    color: var(--neonGreen);
+}
+
+.wrong {
+    color: var(--strongRed);
+}
+
+/*----------------------------------------------------------*/
+
